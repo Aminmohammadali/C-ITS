@@ -42,8 +42,8 @@ Furthermore, we show that our scheme is resistant to replay  and unforgeability 
 
 This library cannot be installed on Windows laptops. Please use a macOS system or a Raspberry Pi 4 or 5 instead.
 
-* **Open ssl library**: First of all. install Open S.S.L library on your Python code..
-* **Open bplib**: Once OpenSSL is installed, you can proceed to install bplib.
+* **Open s.s.l library**: First of all. install Open s.s.l library on your Python code..
+* **Open bplib**: Once Open s.s.l is installed, you can proceed to install bplib.
 * **Run Codes**: The system is now ready. Run the generated code using the following CMD commands:
 
 Signer CMD code: /home/pi/projects/bplib\_test/.venv/bin/python   /home/pi/Downloads/signer\_pi\_batch\_parallel.py   --host 192.168.2.2   --port 5000   --message "1212122423||Alice"   --count 1   --runs 10
