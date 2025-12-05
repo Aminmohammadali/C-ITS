@@ -36,9 +36,10 @@ To evaluate attacks and simulate a dynamic environment, we model a realistic sce
 
 
 Furthermore, we show that our scheme is resistant to replay  and unforgeability attacks. In the dynamic-environment experiment, we introduce delay and jitter using CMD commands to emulate network conditions and examine their effects on message transmission between vehicles and RSUs.
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 ### **Setup:** 
+
 This library cannot be installed on Windows laptops. Please use a macOS system or a Raspberry Pi 4 or 5 instead.
 
 * **Open ssl library**: First of all. install Open S.S.L library on your Python code..
