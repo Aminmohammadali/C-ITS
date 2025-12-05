@@ -1,10 +1,6 @@
 ### **Repository Roadmap**
 
-
-
 The system consists of several Python scripts that work together to implement the scheme:
-
-
 
 * **key\_generator.py** : Generates the public parameters and the master secret keys. Each time this script is executed, it produces a new set of public keys and master secret keys. It should be run once at the initialization phase of the scheme. 
 
@@ -25,7 +21,6 @@ The system consists of several Python scripts that work together to implement th
 ![Architecture](https://raw.githubusercontent.com/Aminmohammadali/C-ITS/main/Arch.jpg)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 ### **Description:** 
 
 In our scheme, we consider three entities: the TA, TC, and AS. In the implementation, the TA runs the key generator and produces the public and secret keys for both the AS and the TC. Once the TA generates the public parameters, they are uploaded to the key-load module so that all entities can retrieve them. Therefore, all public and private keys are unique and remain unchanged unless the TA re-runs the key-generation process to produce new parameters.
